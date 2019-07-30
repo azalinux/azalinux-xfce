@@ -1,0 +1,54 @@
+ARCH 2019 install commands:
+
+# ping google.com  (CTRL-c to kill the ping)
+# timedatectl set-ntp true
+# timedatectl status
+# cfdisk
+# mkfs.ext4 /dev/sda1
+# mkswap /dev/sda2 
+# swapon /dev/sda2
+# mount /dev/sda1 /mnt
+# pacstrap /mnt base
+# genfstab -U /mnt >> /mnt/etc/fstab
+# arch-chroot /mnt
+########      setup2.sh     ##############
+# ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
+# hwclock --systohc
+# nano /etc/locale.gen [uncomment en_US.UTF-8 UTF8]
+#locale-gen
+# nano/etc/locale.conf
+LANG=en_US.UTF-8
+
+# nano /etc/hostname
+azalinux
+
+# nano /etc/hosts
+127.0.0.1 localhost
+::1          localhost
+127.0.1.1 myhostname.localdomain myhostname
+
+# passwd
+# useradd -m newusername (I used derek)
+# passwd yourusername
+# usermod -aG wheel,audio,video,optical,storage,sys yourusername
+# pacman -S git
+# run reflector.sh [from azalinux github]
+# pacman -S xdg-user-dirs
+# xdg-user-dirs-update
+# pacman -S grub
+# grub-install /dev/sda
+# grub-mkconfig -o /boot/grub/grub.cfg
+# pacman -S base-devel
+# pacman -S vim
+# pacman -S dhcpcd [needs to be enabled too!]
+
+# visudo [uncomment "Wheel root access"] {to save type    :wq }
+
+##############  end setup2.sh     #################
+================================================================
+reboot now
+================================================================
+
+#run post_install_apps.sh
+
+Enable sddm and create /etc/sddm.conf.d/autlogin.conf  [and add aza to the sddm group in /etc/group]
