@@ -14,6 +14,7 @@ sudo systemctl enable sshd
 sudo pacman -S --noconfirm --needed dhcpcd
 
 sudo pacman -S xfce4 xfce4-goodies --noconfirm --needed
+sudo pacman -S --noconfirm --needed xfce4-notifyd
 
 sudo pacman -S pulseaudio --noconfirm --needed
 sudo pacman -S pulseaudio-alsa --noconfirm --needed
