@@ -16,6 +16,7 @@ sudo pacman -S --noconfirm --needed dhcpcd
 sudo pacman -S xfce4 xfce4-goodies --noconfirm --needed
 sudo pacman -S --noconfirm --needed xfce4-notifyd
 
+sudo pacman -S --noconfirm --needed lightdm
 
 sudo pacman -S adobe-source-sans-pro-fonts --noconfirm --needed
 sudo pacman -S cantarell-fonts --noconfirm --needed
