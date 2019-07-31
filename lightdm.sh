@@ -2,5 +2,10 @@
 
 set -e
 
-sudo systemctl enable lightdm.service -f
+sudo groupadd -r autologin
+sudo gpasswd -a username autologin
+
+#wget 
+
+sudo systemctl enable lightdm.service
 sudo systemctl set-default graphical.target
