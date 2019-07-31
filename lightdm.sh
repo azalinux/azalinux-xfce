@@ -5,7 +5,7 @@ set -e
 sudo groupadd -r autologin
 sudo gpasswd -a aza autologin
 
-#wget 
+#wget https://raw.githubusercontent.com/azalinux/azalinux-xfce/master/lightdm.conf -O /etc/lightdm/
 
 sudo systemctl enable lightdm.service
 sudo systemctl set-default graphical.target
