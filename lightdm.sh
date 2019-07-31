@@ -3,7 +3,7 @@
 set -e
 
 sudo groupadd -r autologin
-sudo gpasswd -a username autologin
+sudo gpasswd -a aza autologin
 
 #wget 
 
