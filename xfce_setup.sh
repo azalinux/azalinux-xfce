@@ -8,10 +8,11 @@ sh cores.sh
 
 sudo pacman -Syuu --noconfirm --needed
 sudo pacman -S --noconfirm --needed arch-install-scripts
-#sudo pacman -S --noconfirm --needed xorg
+sudo pacman -S --noconfirm --needed os-prober
 sudo pacman -S --noconfirm --needed openssh
 sudo systemctl enable sshd
 sudo pacman -S --noconfirm --needed dhcpcd
+
 
 sudo pacman -S xfce4 xfce4-goodies --noconfirm --needed
 sudo pacman -S --noconfirm --needed xfce4-notifyd
