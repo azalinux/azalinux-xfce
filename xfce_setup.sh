@@ -68,6 +68,8 @@ sudo pacman -S --noconfirm --needed neofetch
 sudo pacman -S --noconfirm --needed chromium
 sudo pacman -S --noconfirm --needed libreoffice-fresh
 sudo pacman -S --noconfirm --needed mpv
+sudo pacman -S --noconfirm --needed deepin-icon-theme
+sudo pacman -S --noconfirm --needed breeze-icons
 
 #sh sddm.sh
 sh wallpaper.sh
@@ -77,6 +79,8 @@ sh samba_install.sh
 sh trizen.sh
 
 trizen -S --noconfirm --needed --noedit pamac-aur
+trizen -S --noconfirm --needed --noedit flat-remix
+trizen -S --noconfirm --needed --noedit starlabstheme-gtk-git
 trizen -S --noconfirm --needed --noedit vivaldi
 trizen -S --noconfirm --needed --noedit vivaldi-codecs-ffmpeg-extra-bin
 trizen -S --noconfirm --needed --noedit realvnc-vnc-server
