@@ -62,6 +62,7 @@ sudo pacman -S --noconfirm --needed libreoffice-fresh
 sudo pacman -S --noconfirm --needed mpv
 
 #sh sddm.sh
+sh wallpaper.sh
 
 sh samba_install.sh
 
