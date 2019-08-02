@@ -42,6 +42,12 @@ sudo pacman -S gst-plugins-good gst-plugins-bad gst-plugins-base gst-plugins-ugl
 sudo pacman -S volumeicon --noconfirm --needed
 sudo pacman -S playerctl --noconfirm --needed
 
+sudo pacman -S --noconfirm --needed baobab
+sudo pacman -S --noconfirm --needed accountsservice
+sudo pacman -S --noconfirm --needed ffmpegthumbnailer
+sudo pacman -S --noconfirm --needed gnome-disk-utility
+sudo pacman -S --noconfirm --needed gnome-keyring
+
 
 sudo pacman -S --noconfirm --needed grub-customizer 
 sudo pacman -S --noconfirm --needed wget
