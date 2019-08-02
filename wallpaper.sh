@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
-sudo wget -i wallpaper.txt -O /usr/share/backgrounds/xfce/
+sudo wget -i wallpaper.txt
 
-#sudo cp * /usr/share/backgrounds/xfce
+sudo mv *.png /usr/share/backgrounds/xfce/
+
+
