@@ -72,7 +72,7 @@ sudo pacman -S --noconfirm --needed deepin-icon-theme
 sudo pacman -S --noconfirm --needed breeze-icons
 sudo pacman -S --noconfirm --needed elementary-icon-theme
 sudo pacman -S --noconfirm --needed adapta-gtk-theme
-sudo pacman -S --noconfirm --needed flat-remix
+
 
 #sh sddm.sh
 sh wallpaper.sh
