@@ -80,6 +80,7 @@ sh samba_install.sh
 sh trizen.sh
 
 trizen -S --noconfirm --needed --noedit pamac-aur
+trizen -S --noconfirm --needed --noedit thunar-shares-plugin
 trizen -S --noconfirm --needed --noedit flat-remix
 trizen -S --noconfirm --needed --noedit starlabstheme-gtk-git
 trizen -S --noconfirm --needed --noedit vivaldi
