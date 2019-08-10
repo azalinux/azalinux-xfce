@@ -18,7 +18,9 @@ sudo pacman -S xfce4 xfce4-goodies --noconfirm --needed
 sudo pacman -S --noconfirm --needed xfce4-notifyd
 sudo pacman -S --noconfirm --needed xorg
 sudo pacman -S --noconfirm --needed xf86-video-amdgpu
-sudo pacman -S --noconfirm --needed lightdm
+sudo pacman -S --noconfirm --needed lightdm lightdm-gtk-greeter
+
+sudo pacman -S --noconfirm --needed firewalld
 
 sudo pacman -S adobe-source-sans-pro-fonts --noconfirm --needed
 sudo pacman -S cantarell-fonts --noconfirm --needed
@@ -42,13 +44,32 @@ sudo pacman -S gst-plugins-good gst-plugins-bad gst-plugins-base gst-plugins-ugl
 sudo pacman -S volumeicon --noconfirm --needed
 sudo pacman -S playerctl --noconfirm --needed
 
+sudo pacman -S --noconfirm --needed cups cups-pdf
+sudo pacman -S ghostscript gsfonts gutenprint --noconfirm --needed
+sudo pacman -S gtk3-print-backends --noconfirm --needed
+sudo pacman -S libcups --noconfirm --needed
+sudo pacman -S hplip --noconfirm --needed
+sudo pacman -S system-config-printer --noconfirm --needed
+
+sudo systemctl enable org.cups.cupsd.service
+
 sudo pacman -S --noconfirm --needed baobab
 sudo pacman -S --noconfirm --needed accountsservice
 sudo pacman -S --noconfirm --needed ffmpegthumbnailer
 sudo pacman -S --noconfirm --needed gnome-disk-utility
 sudo pacman -S --noconfirm --needed gnome-keyring
 
-
+sudo pacman -S --noconfirm --needed curl
+sudo pacman -S --noconfirm --needed dmidecode
+sudo pacman -S --noconfirm --needed glances
+sudo pacman -S --noconfirm --needed clamtk
+sudo pacman -S --noconfirm --needed brasero
+sudo pacman -S --noconfirm --needed sysstat
+sudo pacman -S --noconfirm --needed screenfetch
+sudo pacman -S --noconfirm --needed net-tools
+sudo pacman -S --noconfirm --needed lm_sensors
+sudo pacman -S --noconfirm --needed hexchat
+sudo pacman -S --noconfirm --needed gimp
 sudo pacman -S --noconfirm --needed grub-customizer 
 sudo pacman -S --noconfirm --needed wget
 sudo pacman -S --noconfirm --needed net-tools
