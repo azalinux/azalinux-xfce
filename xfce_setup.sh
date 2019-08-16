@@ -110,6 +110,7 @@ sh install-vivaldi.sh
 
 trizen -S --noconfirm --needed --noedit pamac-aur
 trizen -S --noconfirm --needed --noedit google-chrome-dev
+trizen -S --noconfirm --needed --noedit ocs-url
 trizen -S --noconfirm --needed --noedit thunar-shares-plugin
 trizen -S --noconfirm --needed --noedit flat-remix
 trizen -S --noconfirm --needed --noedit starlabstheme-gtk-git
