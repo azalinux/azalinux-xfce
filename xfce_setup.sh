@@ -87,7 +87,7 @@ sudo pacman -S --noconfirm --needed firefox-developer-edition
 sudo pacman -S --noconfirm --needed thunderbird
 sudo pacman -S --noconfirm --needed qbittorrent
 sudo pacman -S --noconfirm --needed neofetch
-sudo pacman -S --noconfirm --needed chromium
+#sudo pacman -S --noconfirm --needed chromium
 sudo pacman -S --noconfirm --needed libreoffice-fresh
 sudo pacman -S --noconfirm --needed mpv
 sudo pacman -S --noconfirm --needed deepin-icon-theme
@@ -109,6 +109,7 @@ echo "### Installing Vivaldi Snapshot ###"
 sh install-vivaldi.sh
 
 trizen -S --noconfirm --needed --noedit pamac-aur
+trizen -S --noconfirm --needed --noedit google-chrome-dev
 trizen -S --noconfirm --needed --noedit thunar-shares-plugin
 trizen -S --noconfirm --needed --noedit flat-remix
 trizen -S --noconfirm --needed --noedit starlabstheme-gtk-git
