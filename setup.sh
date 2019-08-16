@@ -26,7 +26,7 @@ echo -n "127.0.1.1 myhostname.localdomain myhostname" >> /etc/hosts
 
 echo "######## Check what hard drive you are installing on for grub ie sda, sdb ... and edit the 'grub-install' line !!!! #####"
 echo "########      Default is sda      ############"
-sleep 10
+sleep 3
 passwd
 useradd -m aza
 passwd aza
@@ -41,7 +41,7 @@ pacman -S --noconfirm --needed base-devel
 pacman -S --noconfirm --needed vim
 # visudo [uncomment "Wheel root access"] (to save type: :wq )
 echo " visudo is about to run - uncomment the 'wheel root access' then type ':wq' to save and exit :)"
-sleep 10
+sleep 3
 visudo
 #pacman -S --noconfirm --needed dhcpcd
 systemctl enable dhcpcd
