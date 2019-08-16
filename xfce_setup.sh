@@ -123,7 +123,7 @@ trizen -S --noconfirm --needed --noedit inxi-git
 
 sh xfce_custom_desktop.sh
 
-sudo /usr/bin/vnclicense -add QXHZK-RNRVT-TE3RG-ARWFF-V7WQA
+#sudo /usr/bin/vnclicense -add QXHZK-RNRVT-TE3RG-ARWFF-V7WQA
 
 sudo systemctl enable vncserver-x11-serviced
 
