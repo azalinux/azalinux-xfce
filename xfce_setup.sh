@@ -111,7 +111,7 @@ trizen -S --noconfirm --needed --noedit pamac-aur
 trizen -S --noconfirm --needed --noedit google-chrome-dev
 trizen -S --noconfirm --needed --noedit ocs-url
 trizen -S --noconfirm --needed --noedit thunar-shares-plugin
-#trizen -S --noconfirm --needed --noedit flat-remix
+trizen -S --noconfirm --needed --noedit sweet-folders-icons-git
 #trizen -S --noconfirm --needed --noedit starlabstheme-gtk-git
 #trizen -S --noconfirm --needed --noedit vivaldi
 #trizen -S --noconfirm --needed --noedit vivaldi-codecs-ffmpeg-extra-bin
