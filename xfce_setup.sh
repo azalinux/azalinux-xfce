@@ -126,6 +126,6 @@ sh xfce_custom_desktop.sh
 
 sudo systemctl enable vncserver-x11-serviced
 
-#sudo systemctl enable NetworkManager
+sudo systemctl enable NetworkManager
 
 
