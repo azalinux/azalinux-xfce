@@ -44,6 +44,16 @@ sudo pacman -S gst-plugins-good gst-plugins-bad gst-plugins-base gst-plugins-ugl
 sudo pacman -S volumeicon --noconfirm --needed
 sudo pacman -S playerctl --noconfirm --needed
 
+# installing bluetooth software
+sudo pacman -S --noconfirm --needed pulseaudio-bluetooth
+sudo pacman -S --noconfirm --needed bluez
+sudo pacman -S --noconfirm --needed bluez-libs
+sudo pacman -S --noconfirm --needed bluez-utils
+sudo pacman -S --noconfirm --needed blueberry
+
+sudo systemctl enable bluetooth.service
+sudo systemctl start bluetooth.service
+
 sudo pacman -S --noconfirm --needed cups cups-pdf
 sudo pacman -S ghostscript gsfonts gutenprint --noconfirm --needed
 sudo pacman -S gtk3-print-backends --noconfirm --needed
