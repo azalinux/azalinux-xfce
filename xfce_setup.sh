@@ -89,6 +89,7 @@ sudo pacman -S --noconfirm --needed gparted
 sudo pacman -S --noconfirm --needed simplescreenrecorder
 sudo pacman -S --noconfirm --needed filezilla
 #sudo pacman -S --noconfirm --needed atom
+sudo pacman -S --noconfirm --needed ipset
 sudo pacman -S --noconfirm --needed geany
 sudo pacman -S --noconfirm --needed meld
 sudo pacman -S --noconfirm --needed catfish
