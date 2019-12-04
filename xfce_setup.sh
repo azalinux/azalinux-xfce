@@ -94,7 +94,7 @@ sudo pacman -S --noconfirm --needed geany
 sudo pacman -S --noconfirm --needed meld
 sudo pacman -S --noconfirm --needed catfish
 sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils uudeview arj cabextract file-roller
-sudo pacman -S --noconfirm --needed firefox-developer-edition
+sudo pacman -S --noconfirm --needed firefox
 sudo pacman -S --noconfirm --needed thunderbird
 sudo pacman -S --noconfirm --needed qbittorrent
 sudo pacman -S --noconfirm --needed neofetch
