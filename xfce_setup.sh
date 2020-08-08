@@ -118,7 +118,7 @@ sh trizen.sh
 sh lightdm.sh
 
 echo "### Installing Vivaldi Snapshot ###"
-sh install-vivaldi.sh
+#sh install-vivaldi.sh
 
 trizen -S --noconfirm --needed --noedit pamac-aur-git
 trizen -S --noconfirm --needed --noedit google-chrome-dev
