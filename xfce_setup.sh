@@ -61,7 +61,7 @@ sudo pacman -S libcups --noconfirm --needed
 sudo pacman -S hplip --noconfirm --needed
 sudo pacman -S system-config-printer --noconfirm --needed
 
-sudo systemctl enable org.cups.cupsd.service
+sudo systemctl enable cups.service
 
 sudo pacman -S --noconfirm --needed baobab
 sudo pacman -S --noconfirm --needed accountsservice
@@ -99,7 +99,7 @@ sudo pacman -S --noconfirm --needed firefox
 sudo pacman -S --noconfirm --needed thunderbird
 sudo pacman -S --noconfirm --needed qbittorrent
 sudo pacman -S --noconfirm --needed neofetch
-#sudo pacman -S --noconfirm --needed chromium
+sudo pacman -S --noconfirm --needed chromium
 sudo pacman -S --noconfirm --needed libreoffice-fresh
 sudo pacman -S --noconfirm --needed mpv
 sudo pacman -S --noconfirm --needed breeze-icons
@@ -122,10 +122,10 @@ echo "### Installing Vivaldi Snapshot ###"
 #sh install-vivaldi.sh
 
 trizen -S --noconfirm --needed --noedit pamac-aur-git
-trizen -S --noconfirm --needed --noedit google-chrome-dev
+#trizen -S --noconfirm --needed --noedit google-chrome-dev
 trizen -S --noconfirm --needed --noedit ocs-url
 trizen -S --noconfirm --needed --noedit thunar-shares-plugin
-trizen -S --noconfirm --needed --noedit sweet-folders-icons-git
+#trizen -S --noconfirm --needed --noedit sweet-folders-icons-git
 #trizen -S --noconfirm --needed --noedit starlabstheme-gtk-git
 #trizen -S --noconfirm --needed --noedit vivaldi
 #trizen -S --noconfirm --needed --noedit vivaldi-codecs-ffmpeg-extra-bin
