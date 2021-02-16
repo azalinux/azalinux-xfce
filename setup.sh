@@ -37,8 +37,8 @@ pacman -S --noconfirm --needed xdg-user-dirs
 pacman -S --noconfirm --needed grub
 grub-install /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
-pacman -S --noconfirm --needed base-devel
-pacman -S --noconfirm --needed vim
+#pacman -S --noconfirm --needed base-devel
+pacman -S --noconfirm --needed vi
 # visudo [uncomment "Wheel root access"] (to save type: :wq )
 echo " visudo is about to run - uncomment the 'wheel root access' then type ':wq' to save and exit :)"
 sleep 3
