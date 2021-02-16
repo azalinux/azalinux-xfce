@@ -35,6 +35,10 @@ usermod -aG wheel,audio,video,optical,storage,sys aza
 sh reflector.sh
 pacman -S --noconfirm --needed xdg-user-dirs
 pacman -S --noconfirm --needed grub
+pacman -S --noconfirm --needed dosfstools
+pacman -S --noconfirm --needed efibootmgr
+
+
 grub-install /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
 #pacman -S --noconfirm --needed base-devel
