@@ -38,6 +38,14 @@ pacman -S --noconfirm --needed grub
 pacman -S --noconfirm --needed dosfstools
 pacman -S --noconfirm --needed efibootmgr
 
+## OR EFI #####
+#pacman -S efibootmgr
+#!!!! FOR UEFI create /efi partition - FAT32 - 512Mb
+#mkfs.fat -F32 /dev/sdb1
+#!! You have to mount the EFI partition then create the 'efi' directory on it!
+#mkdir /efi
+#mount /dev/sda1 /efi
+#grub-install --target=x86_64-efi --efi-directory=/efi --bootloader-id=GRUB  #!!!!#
 
 grub-install /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
