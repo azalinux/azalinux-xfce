@@ -110,7 +110,7 @@ sudo pacman -S --noconfirm --needed p7zip
 
 
 #sh sddm.sh
-sh wallpaper.sh
+#sh wallpaper.sh
 
 sh samba_install.sh
 
