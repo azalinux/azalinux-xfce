@@ -116,7 +116,8 @@ sh samba_install.sh
 
 sh trizen.sh
 
-sh lightdm.sh
+#sh lightdm.sh
+sh sddm.sh
 
 echo "### Installing Vivaldi Snapshot ###"
 #sh install-vivaldi.sh
