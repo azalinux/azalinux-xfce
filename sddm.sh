@@ -1,3 +1,4 @@
+#!/bin/bash
 set -u
 
 sudo mkdir /etc/sddm.conf.d
