@@ -18,7 +18,7 @@ sudo pacman -S xfce4 xfce4-goodies --noconfirm --needed
 sudo pacman -S --noconfirm --needed xfce4-notifyd
 sudo pacman -S --noconfirm --needed xorg
 sudo pacman -S --noconfirm --needed xf86-video-amdgpu
-sudo pacman -S --noconfirm --needed lightdm lightdm-gtk-greeter
+sudo pacman -S --noconfirm --needed sddm
 sudo pacman -S --noconfirm --needed xf86-input-vmmouse xf86-video-vmware mesa 
 sudo pacman -S --noconfirm --needed firewalld
 
@@ -109,7 +109,7 @@ sudo pacman -S --noconfirm --needed network-manager-applet
 sudo pacman -S --noconfirm --needed p7zip
 
 
-#sh sddm.sh
+
 #sh wallpaper.sh
 
 sh samba_install.sh
