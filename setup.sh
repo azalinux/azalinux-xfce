@@ -57,5 +57,5 @@ pacman -S --noconfirm --needed vim
 echo " visudo is about to run - uncomment the 'wheel root access' then type ':wq' to save and exit :)"
 sleep 3
 visudo
-pacman -S --noconfirm --needed dhcpcd
-systemctl enable dhcpcd
+pacman -S --noconfirm --needed networkmanager
+systemctl enable NetworkManager
