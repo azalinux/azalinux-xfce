@@ -129,6 +129,7 @@ trizen -S --noconfirm --needed --noedit realvnc-vnc-server
 trizen -S --noconfirm --needed --noedit realvnc-vnc-viewer
 #trizen -S --noconfirm --needed --noedit vlc-nightly
 trizen -S --noconfirm --needed --noedit inxi-git
+trizen -S --noconfirm --needed --noedit astronciaiptv
 
 #sh xfce_custom_desktop.sh
 
